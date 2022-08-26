@@ -7,9 +7,37 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="display-section">
+            <div class="player">
+                <h2>Your Score: <span id="player-score">0</span></h2>
+                <div class="selection-group">
+                    <h2>Your Selection:</h2>
+                    <img class="img" id="playerImage">
+                </div>
+            </div>
 
-        <script src="index.js" async defer></script>
+            <div class="winner">Best of 5</div>
+
+            
+            <div class="computer">
+                <h2>Computer's Score: <span id="computer-score">0</span></h2>
+                <div class="selection-group">
+                    <h2>Computer's Selection: </h2>
+                    <img class="img" id="computerImage">
+                </div>
+            </div>
+           
+        </div>
+        
+        <div class="cards">
+            <img class="img card rock" data-card="rock" src="images/rock-paper-scissors-icon-rock-paper-scissors-pngrock-paper-scissors-png--free-transparent-png-images-pngaaacom.jpg">
+            <img class="img card paper" data-card="paper" src="images/play-rock-paper-scissors-with-us-246506.jpg">
+            <img class="img card scissor" data-card="scissors" src="images/your-hand-hand-clipart-png-rock-paper-scissors-free-transparent-png-clipart-images-download.jpg">
+        </div>
+     
     </body>
 </html>
