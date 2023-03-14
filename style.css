@@ -32,6 +32,12 @@ body {
   justify-content: space-between;
 }
 
+#computerImage,
+#playerImage {
+  width: 100px;
+  display: block;
+}
+
 .display-section h2 {
   z-index: 999;
 }
@@ -57,6 +63,7 @@ body {
 .no-pointer {
   transform: rotate(-90deg);
   transition: transform 0.4s;
+  width: 50vh;
 }
 .cards {
   display: flex;
@@ -65,12 +72,10 @@ body {
 }
 
 .img {
+  width: 100%;
   height: auto;
-  width: 50vh;
-
   background-color: white;
   border-radius: 5px;
-
   pointer-events: none;
 }
 

@@ -17,11 +17,12 @@ const paperSource = 'images/play-rock-paper-scissors-with-us-246506.jpg';
 const scissorSource =
   'images/your-hand-hand-clipart-png-rock-paper-scissors-free-transparent-png-clipart-images-download.jpg';
 
-const buttons = document.querySelectorAll('.card');
+const buttons = document.querySelectorAll('.no-pointer');
 
 buttons.forEach(button => {
   button.addEventListener('click', e => {
     const input = e.target.getAttribute('data-card');
+    console.log(1212);
     const computerChoice = getComputerChoice();
 
     if (input === 'rock') {
